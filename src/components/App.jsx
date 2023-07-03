@@ -9,8 +9,6 @@ import { fetchImages } from './Services/api';
 import Notiflix from 'notiflix';
 
 export const App = () => {
-  console.log('test');
-
   const [searchQuery, setSearchQuery] = useState('');
   const [page, setPage] = useState(1);
   const [images, setImages] = useState([]);
